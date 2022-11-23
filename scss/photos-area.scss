@@ -1,0 +1,28 @@
+.photos-area {
+    max-width: 1920px;
+    height: 60%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    .photo-holder {
+        width: 250px;
+        height: 250px;
+
+        a {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+
+            img {
+                padding: 20px;
+                width: 100%;
+                height: 100%;
+            
+            }
+
+        }
+    }
+}    

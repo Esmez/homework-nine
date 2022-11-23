@@ -1,0 +1,35 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 150px;
+    //background-color: aqua;
+
+    .products-info {
+        max-width: 676px;
+        min-height: 150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px;
+        //background-color: green;
+
+        .productsImage {
+            width: 250px;
+            height: 150px;
+            margin-bottom: 80px;
+            img {
+                width: 100%;
+            }
+        }
+
+        .aboutproducts {
+            width: 385px;
+            p{}
+        }
+    }
+}
